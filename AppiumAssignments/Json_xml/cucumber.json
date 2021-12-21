@@ -1,0 +1,418 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validate the custom view",
+        "description": "",
+        "id": "validate-different-options;validate-the-custom-view",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6937074900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I open application",
+            "match": {
+              "location": "customview.i_open_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3744400,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefnitions.customview.i_tap_on_Accessiblity(customview.java:44)\r\n\tat ✽.When I tap on Accessiblity(customview.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I tap on Accessiblity",
+            "match": {
+              "location": "customview.i_tap_on_Accessiblity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I validate custom view",
+            "match": {
+              "location": "customview.i_validate_custom_view()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag8"
+          }
+        ]
+      }
+    ],
+    "name": "Validate different options",
+    "description": "",
+    "id": "validate-different-options",
+    "keyword": "Feature",
+    "uri": "customview.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Validate DisplayShowtitle option",
+        "description": "",
+        "id": "validate-display-options;validate-displayshowtitle-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6336413900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the application",
+            "match": {
+              "location": "hidingshowingbuttons.i_open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6779216500,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefnitions.displaytitle.i_tap_on_App(displaytitle.java:37)\r\n\tat ✽.When I tap on App(displaytitle.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I tap on App",
+            "match": {
+              "location": "displaytitle.i_tap_on_App()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I tap on Action Bar",
+            "match": {
+              "location": "displaytitle.i_tap_on_Action_Bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I tap on Display options",
+            "match": {
+              "location": "displaytitle.i_tap_on_Display_opstions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I tap on Display show title",
+            "match": {
+              "location": "displaytitle.i_tap_on_Display_show_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Validate display options",
+    "description": "",
+    "id": "validate-display-options",
+    "keyword": "Feature",
+    "uri": "displaytitle.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Validate Hiding of buttons",
+        "description": "",
+        "id": "validate-different-opstions;validate-hiding-of-buttons",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6733027300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open the application",
+            "match": {
+              "location": "hidingshowingbuttons.i_open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336600,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefnitions.hidingshowingbuttons.i_tap_on_Animation(hidingshowingbuttons.java:76)\r\n\tat ✽.When I tap on Animation(hidingbuttons.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I tap on Animation",
+            "match": {
+              "location": "hidingshowingbuttons.i_tap_on_Animation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I tap on Hide-Show Animations",
+            "match": {
+              "location": "hidingshowingbuttons.i_tap_on_Hide_Show_Animations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I validate the hiding of buttons",
+            "match": {
+              "location": "hidingshowingbuttons.i_validate_the_hiding_of_buttons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Validate different opstions",
+    "description": "",
+    "id": "validate-different-opstions",
+    "keyword": "Feature",
+    "uri": "hidingbuttons.feature"
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validate showing of buttons",
+        "description": "",
+        "id": "validate-showing-of-buttons;validate-showing-of-buttons",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6724268500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I open the application",
+            "match": {
+              "location": "hidingshowingbuttons.i_open_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 377900,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefnitions.hidingshowingbuttons.i_tap_on_Animation(hidingshowingbuttons.java:76)\r\n\tat ✽.When I tap on Animation(showbuttons.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I tap on Animation",
+            "match": {
+              "location": "hidingshowingbuttons.i_tap_on_Animation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I tap on Hide-Show Animations",
+            "match": {
+              "location": "hidingshowingbuttons.i_tap_on_Hide_Show_Animations()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I tap on first button",
+            "match": {
+              "location": "hidingshowingbuttons.i_tap_on_first_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I validate the showing of buttons",
+            "match": {
+              "location": "hidingshowingbuttons.i_validate_the_showing_of_buttons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Validate showing of buttons",
+    "description": "",
+    "id": "validate-showing-of-buttons",
+    "keyword": "Feature",
+    "uri": "showbuttons.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "send sms message",
+        "description": "",
+        "id": "verify-sms-messaging;send-sms-message;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7476681400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch APIDemos.apk on the device.",
+            "match": {
+              "location": "smsmessage.launch_APIDemos_apk_on_the_device()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237500,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdefnitions.smsmessage.tap_on_OS(smsmessage.java:50)\r\n\tat ✽.Then Tap on OS.(smsmessage.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Tap on OS.",
+            "match": {
+              "location": "smsmessage.tap_on_OS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Tap on SMS Messaging",
+            "match": {
+              "location": "smsmessage.tap_on_SMS_Messaging()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter the number \"9616561186\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9616561186",
+                  "offset": 18
+                }
+              ],
+              "location": "smsmessage.enter_the_number(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter the message \"hello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "hello",
+                  "offset": 19
+                }
+              ],
+              "location": "smsmessage.enter_the_message(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click on send",
+            "match": {
+              "location": "smsmessage.click_on_send()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag6"
+          }
+        ]
+      }
+    ],
+    "name": "Verify sms messaging",
+    "description": "",
+    "id": "verify-sms-messaging",
+    "keyword": "Feature",
+    "uri": "smsmessage.feature"
+  }
+]
